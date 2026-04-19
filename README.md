@@ -1,7 +1,7 @@
 # 🍌 Açık Kaynak Analiz Uygulaması - Electron Edition
 
 <p align="center">
-  <img src="showcase.png" width="250" alt="Showcase" />
+  <img src="showcase.png" width="100%" alt="Showcase" />
 </p>
 
 **Açık Kaynak Analiz Uygulaması**, bilgisayarınızdaki dosya karmaşasını saniyeler içinde çözen, "Parlayan Gece Mavisi" (Night Blue) temalı akıllı dosya organizatörüdür. Electron mimarisi ile hem hızlı hem de görsel olarak premium bir deneyim sunar.
