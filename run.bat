@@ -1,8 +1,10 @@
 @echo off
-title Enpai Analiz - Kurulum ve Baslatma
+title Enpai Analiz - Electron Baslatici
 echo [1/2] Bagimliliklar kontrol ediliyor...
-pip install -r requirements.txt
+if not exist node_modules (
+    echo node_modules bulunamadi, kuruluyor...
+    npm install
+)
 echo.
-echo [2/2] Enpai Analiz baslatiliyor...
-python file_organizer.py
-pause
+echo [2/2] Enpai Analiz Baslatiliyor...
+npm start

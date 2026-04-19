@@ -1,0 +1,14 @@
+Enpai Analiz - Gereksinimler
+
+1. Node.js (v16 veya üzeri)
+2. npm (Node Package Manager)
+
+Kullanılan Kütüphaneler:
+- Electron (Arayüz ve Uygulama Mimarisi)
+- fs-extra (Gelişmiş Dosya İşlemleri)
+
+Kurulum Komutu:
+npm install
+
+Çalıştırma Komutu:
+npm start

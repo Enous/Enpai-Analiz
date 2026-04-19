@@ -1,46 +1,35 @@
-# 🍌 Enpai Analiz - Akıllı Dosya Organizatörü
+# 🍌 Enpai Analiz - Electron Edition
 
-![Enpai Analiz](https://raw.githubusercontent.com/Enous/Enous/main/assets/neon_banana_banner.png) *(Görsel örnektir)*
+![Enpai Analiz](https://raw.githubusercontent.com/Enous/Enous/main/assets/night_blue_banner.png)
 
-**Enpai Analiz**, bilgisayarınızdaki dosya karmaşasını saniyeler içinde çözen, modern ve yüksek performanslı bir dosya düzenleme aracıdır. "Nano Banana" cyberpunk estetiği ile tasarlanmış, akıllı analiz yeteneklerine sahip açık kaynaklı bir projedir.
+**Enpai Analiz**, bilgisayarınızdaki dosya karmaşasını saniyeler içinde çözen, "Parlayan Gece Mavisi" (Night Blue) temalı akıllı dosya organizatörüdür. Electron mimarisi ile hem hızlı hem de görsel olarak premium bir deneyim sunar.
 
 ## ✨ Özellikler
 
-- **🔍 Akıllı Analiz:** Dosyaları sadece uzantısına göre değil, isimlerindeki anahtar kelimelere göre (Oyun, Yazılım vb.) sınıflandırır.
-- **🚀 Ultra Hızlı Transfer:** Multi-threaded (çok kanallı) mimarisi ile CPU ve I/O hızını maksimumda kullanarak taşıma/kopyalama yapar.
-- **💎 Premium UI:** CustomTkinter tabanlı, neon animasyonlu ve modern kart yapısına sahip kullanıcı arayüzü.
-- **📁 Dinamik Klasör Seçimi:** Herhangi bir kaynak klasörü seçip, istediğiniz hedef dizine organize edebilirsiniz.
-- **🛡️ Güvenli İşlem:** İşlem öncesi detaylı önizleme ve onay mekanizması.
+- **🌌 Parlayan Gece Mavisi Tasarımı:** Glassmorphism ve modern neon efektleri.
+- **🚀 Node.js Gücü:** Dosya işlemleri çok daha hızlı ve güvenli.
+- **🔍 Akıllı Kategori Analizi:** Dosyaları uzantı ve içeriklerine göre otomatik ayırma.
+- **🖱️ Hover Efektleri:** Akıcı ve dinamik kullanıcı arayüzü.
 
 ## 🛠️ Kurulum
 
-1. Depoyu bilgisayarınıza indirin:
+1. Depoyu klonlayın:
    ```bash
    git clone https://github.com/Enous/Enpai-Analiz.git
    ```
-2. Klasöre girin:
+2. Bağımlılıkları kurun:
    ```bash
    cd Enpai-Analiz
+   npm install
    ```
-3. `run.bat` dosyasını çalıştırın (Otomatik kurulum ve başlatma).
+3. Uygulamayı başlatın:
+   ```bash
+   npm start
+   ```
 
-Veya manuel olarak:
-```bash
-pip install -r requirements.txt
-python file_organizer.py
-```
+## 📂 Kategoriler
 
-## 📂 Kategorizasyon Mantığı
-
-- **Kodlama:** Python, JS, C++, AutoIt (.au3) ve dahası.
-- **Oyun:** EXE, MSI, ISO, RPF (GTA) ve oyun anahtar kelimeleri içeren dosyalar.
-- **Medya:** Görseller (.jfif dahil), Videolar, Müzikler.
-- **3D Tasarım:** STL, OBJ, FBX.
-- **Arşiv:** RAR, ZIP, 7Z.
-
-## 🤝 Katkıda Bulunma
-
-Bu proje açık kaynaklıdır! Geliştirmek isterseniz Pull Request göndermekten çekinmeyin.
+- Kodlama, Oyun, Medya, 3D Tasarım, Arşiv ve Belgeler.
 
 ---
 Developed with 💜 by [Enous](https://github.com/Enous)

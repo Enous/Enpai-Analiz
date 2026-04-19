@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Enpai Analiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <div class="title-bar">
+        <span>ENPAI ANALIZ</span>
+        <button id="close-btn">×</button>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1 class="glow-text">ENPAI ANALIZ</h1>
+            <p class="subtitle">Nano Banana Smart Organizer</p>
+        </header>
+
+        <div class="card path-section">
+            <div class="input-group">
+                <label>KAYNAK</label>
+                <div class="row">
+                    <input type="text" id="src-path" placeholder="Klasör seçin...">
+                    <button class="btn-small" id="browse-src">SEÇ</button>
+                </div>
+            </div>
+            <div class="input-group">
+                <label>HEDEF</label>
+                <div class="row">
+                    <input type="text" id="dst-path" placeholder="Klasör seçin...">
+                    <button class="btn-small" id="browse-dst">SEÇ</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="op-toggle">
+            <label class="radio">
+                <input type="radio" name="op" value="move" checked>
+                <span class="check"></span> Taşı
+            </label>
+            <label class="radio">
+                <input type="radio" name="op" value="copy">
+                <span class="check"></span> Kopyala
+            </label>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            <span id="progress-text">0%</span>
+        </div>
+
+        <div class="file-list-card">
+            <h3>ANALİZ EDİLEN DOSYALAR</h3>
+            <div id="file-list" class="scrollable">
+                <div class="placeholder">Henüz analiz yapılmadı.</div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="scan-btn" class="btn-primary">DOSYALARI ANALİZ ET</button>
+            <button id="process-btn" class="btn-success" disabled>ONAYLA VE BAŞLAT</button>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
