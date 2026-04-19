@@ -17,7 +17,7 @@
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/Enous/Enpai-Analiz.git
+   git clone https://github.com/Enous/Enpai Dev-Analiz.git
    ```
 2. Bağımlılıkları kurun:
    ```bash
