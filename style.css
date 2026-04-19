@@ -73,7 +73,7 @@ body::before {
 #close-btn:hover { color: #EF4444; }
 
 .container {
-    padding: 20px 60px;
+    padding: 30px 80px;
     height: calc(100vh - 35px);
     display: flex;
     flex-direction: column;
@@ -105,17 +105,19 @@ header {
 
 .card {
     background: var(--card-glass);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 25px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    padding: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .input-group label {
-    font-size: 11px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: var(--glow-blue);
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     display: block;
 }
 
@@ -126,12 +128,12 @@ header {
 
 input {
     flex: 1;
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(56, 189, 248, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(56, 189, 248, 0.4);
     color: #fff;
-    padding: 10px 15px;
-    border-radius: 10px;
-    font-size: 13px;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 15px;
     transition: all 0.3s;
 }
 
@@ -142,11 +144,13 @@ input:focus {
 }
 
 .btn-small {
-    background: rgba(56, 189, 248, 0.1);
-    border: 1px solid rgba(56, 189, 248, 0.3);
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.5);
     color: var(--glow-blue);
-    padding: 0 20px;
-    border-radius: 10px;
+    padding: 0 30px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -200,22 +204,23 @@ input:focus {
 }
 
 .file-list-card {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
     height: 320px;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 h3 {
     margin: 0;
-    padding: 12px 20px;
-    font-size: 12px;
+    padding: 18px 25px;
+    font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: var(--text-soft);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .scrollable {
