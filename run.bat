@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 title Açık Kaynak Analiz Uygulaması - Electron Baslatici
 echo [1/2] Bagimliliklar kontrol ediliyor...
 if not exist node_modules (
