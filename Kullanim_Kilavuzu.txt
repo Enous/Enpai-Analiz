@@ -1,0 +1,44 @@
+=========================================
+      ENPAI-DEV ANALIZ - KULLANIM KILAVUZU
+=========================================
+
+Enpai-Dev Analiz, bilgisayarinizdaki (Masaustu, indirilenler vb.) daginik dosyalari otomatik olarak kategorize edip duzenleyen akilli bir aractir.
+
+NASIL KULLANILIR?
+-----------------
+1. KAYNAK SECIMI
+   - Arayuzde "KAYNAK" bolumundeki "SEC" butonuna tiklayin.
+   - Duzenlemek istediginiz daginik klasoru (ornegin 'indirilenler' klasorunu) secin.
+
+2. HEDEF SECIMI
+   - "HEDEF" bolumundeki "SEC" butonuna tiklayin.
+   - Duzenlenmis dosyalarin gitmesini istediginiz yeri (ornegin 'Masaustu') secin.
+   - (Uygulama, sectiginiz hedefin icine 'Enpai-Dev Analiz' adinda yeni bir klasor olusturacak ve dosyalari oraya dizecektir, boylece eski dosyalarinizla karismaz).
+
+3. ISLEM TURU SECIMI
+   - TASI: Dosyalari orijinal yerinden alip hedef klasore tasir.
+   - KOPYALA: Dosyalari yerinde birakir, hedef klasore sadece bir kopyasini olusturur.
+
+4. ANALIZ VE BASLATMA
+   - "DOSYALARI ANALIZ ET" butonuna basin. Arayuzde dosyalarin 'Oyun, Kodlama, Medya' gibi ayrildigini goreceksiniz.
+   - "ONAYLA VE BASLAT" butonuna bastiginizda kisa sure icinde tum dosyalariniz secilen isleme gore duzenlenecektir.
+
+
+SIK SORULAN SORULAR (SSS)
+-------------------------
+S: Uygulamayi nasil calistiririm?
+C: 'run.bat' dosyasina cift tiklayarak baslatabilirsiniz. Ilk defa kuruyorsaniz once 'kurulum.bat' dosyasini calistirmalisiniz.
+
+S: Dosyalarim silinir mi?
+C: Hayir. Uygulama sadece tasima veya kopyalama islemi yapar, silme islemi gerceklestirmez.
+
+S: Hangi dosyalar hangi kategoriye girer?
+C:
+ - Kodlama: .py, .js, .html, .css, vb.
+ - Oyun: .exe, .msi, .iso vb. (isimlerinde 'setup, crack' gibi kelimeler olanlar)
+ - Arsiv: .zip, .rar, .7z vb.
+ - Medya: .png, .jpg, .mp4, .mp3 vb.
+ - Belgeler: .pdf, .docx, .xlsx, .txt vb.
+
+Iyi kullanimlar dilerim!
+- Ensar
