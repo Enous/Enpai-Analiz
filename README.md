@@ -1,7 +1,7 @@
 # Açık Kaynak Analiz Uygulaması - Electron Edition
 
 <p align="center">
-  <img src="showcase.png" width="100%" alt="Showcase" />
+  <img src="assets/showcase.png" width="100%" alt="Showcase" />
 </p>
 
 **Enpai-Dev Analiz**, bilgisayardaki dağınık dosyaları (indirilenler, masaüstü vb.) tek tıkla toparlayan bir dosya düzenleyici. Kendi işimi kolaylaştırmak için yaptım, arayüzü sade ve kullanımı oldukça basit.
