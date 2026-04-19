@@ -2,21 +2,23 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Açık Kaynak Analiz Uygulaması</title>
+    <title>Enpai-Dev Analiz</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Particles.js CDN for Snow Animation -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body>
     <div id="particles-js"></div>
     
     <div class="title-bar">
-        <span>AÇIK KAYNAK ANALİZ UYGULAMASI</span>
+        <span>ENPAI-DEV ANALİZ</span>
         <button id="close-btn">×</button>
     </div>
 
     <div class="container">
         <header>
-            <h1 class="glow-text">AÇIK KAYNAK ANALİZ</h1>
+            <h1 class="glow-text">ENPAI-DEV ANALİZ</h1>
             <p class="subtitle">Nano Banana Smart Organizer</p>
         </header>
 
@@ -69,5 +71,24 @@
     </div>
 
     <script src="renderer.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 150, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": "#ffffff" },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.5, "random": true },
+                "size": { "value": 3, "random": true },
+                "line_linked": { "enable": false },
+                "move": { "enable": true, "speed": 1, "direction": "bottom", "random": true, "straight": false, "out_mode": "out" }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": { "onhover": { "enable": true, "mode": "bubble" }, "onclick": { "enable": false }, "resize": true },
+                "modes": { "bubble": { "distance": 200, "size": 6, "duration": 2, "opacity": 1, "speed": 3 } }
+            },
+            "retina_detect": true
+        });
+    </script>
 </body>
 </html>

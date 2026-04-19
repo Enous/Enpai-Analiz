@@ -1,10 +1,10 @@
 {
-  "name": "Açık Kaynak Analiz Uygulaması",
+  "name": "enpai-dev-analiz",
   "version": "1.0.0",
+  "description": "Enpai Dev Açık Kaynak Analiz Uygulaması - Electron Edition",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "description": "Açık Kaynak Analiz Uygulaması - Electron Edition"
+    "start": "electron ."
   },
   "dependencies": {
     "fs-extra": "^11.2.0"
