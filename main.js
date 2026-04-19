@@ -55,9 +55,12 @@ ipcMain.handle('scan-files', async (event, srcPath) => {
 
 ipcMain.on('process-files', async (event, { files, src, dst, op }) => {
     let count = 0;
+    const baseTargetDir = path.join(dst, 'Enpai-Dev Analiz');
+    await fs.ensureDir(baseTargetDir);
+
     for (const file of files) {
         const category = getCategory(file.ext, file.name);
-        const targetDir = path.join(dst, category);
+        const targetDir = path.join(baseTargetDir, category);
         await fs.ensureDir(targetDir);
         
         const srcFile = path.join(src, file.name);
