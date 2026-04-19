@@ -4,22 +4,22 @@
   <img src="showcase.png" width="100%" alt="Showcase" />
 </p>
 
-**Açık Kaynak Analiz Uygulaması**, bilgisayarınızdaki dosya karmaşasını saniyeler içinde çözen, "Parlayan Gece Mavisi" (Night Blue) temalı akıllı dosya organizatörüdür. Electron mimarisi ile hem hızlı hem de görsel olarak premium bir deneyim sunar.
+**Enpai-Dev Analiz**, bilgisayardaki dağınık dosyaları (indirilenler, masaüstü vb.) tek tıkla toparlayan bir dosya düzenleyici. Kendi işimi kolaylaştırmak için yaptım, arayüzü sade ve kullanımı oldukça basit.
 
-## ✨ Özellikler
+## ✨ Ne İşe Yarıyor?
 
-- 🌌 **Ferah ve Modern Tasarım:** Göz yormayan "Gece Mavisi" teması, glassmorphism detayları ve akıcı animasyonlarla ferah bir kullanıcı deneyimi.
-- 📂 **Özgür Klasör Analizi:** İstediğiniz herhangi bir klasörü saniyeler içinde derinlemesine analiz edip dosya türlerine göre kategorize etme.
-- 🚀 **Esnek Transfer Seçenekleri:** Analiz edilen dosyaları belirlediğiniz hedefe ister tamamen **transfer edebilir (taşıyabilir)**, isterseniz de **kopyalayabilirsiniz**.
-- ⚡ **Yüksek Performans:** Node.js çekirdeği sayesinde binlerce dosyayı donma yaşamadan işleme.
+- 🌌 **Sade Tasarım:** Koyu renkli, göz yormayan basit bir arayüzü var. Arka planda da ufak bir kar efekti ekledim.
+- 📂 **Hızlı Düzenleme:** İstediğin klasörü seçiyorsun, içindeki dosyaları (oyun, kod, medya vb. diye) otomatik ayırıyor.
+- 🚀 **Taşıma ve Kopyalama:** Dosyaları ister tamamen başka bir yere taşıyabiliyor, istersen de sadece kopyalarını alabiliyorsun.
+- ⚡ **Takılmadan Çalışıyor:** Electron.js kullandığım için arka planda binlerce dosya varken bile çökmüyor veya takılmıyor.
 
-## 🚧 Yapım Aşamaları
+## 🚧 Nasıl Yaptım? (Geliştirme Aşamaları)
 
-1. **Python Prototiplenmesi:** Uygulamanın temel dosya taşıma/kopyalama mantığı ilk olarak Python ile test edildi.
-2. **Electron Mimarisine Geçiş:** Daha modern, hızlı ve derlenebilir bir arayüz için Node.js ve Electron.js altyapısına geçildi.
-3. **Ferah Tasarımın İnşası (Night Blue):** Kullanıcıyı yormayan, estetik ve fütüristik bir UI/UX tasarlandı.
-4. **IPC Entegrasyonu:** Arayüz ile çekirdek dosya sistemi (fs-extra) arasında güvenli asenkron iletişim kuruldu.
-5. **Açık Kaynak Yayını:** Toplulukla paylaşılmak üzere kodlar temizlendi ve GitHub'da yayımlandı.
+1. İlk başta dosyaları taşımak için ufak bir **Python** scripti yazarak mantığı kurdum.
+2. Sadece terminalden kullanmak sıkıcı gelince bunu **Electron.js** ile masaüstü uygulamasına çevirdim.
+3. Arayüzü tasarlarken koyu renkler kullanıp arka plana hoşuma giden basit animasyonlar ekledim.
+4. Ön yüz ile arka planın sorunsuz haberleşmesi için IPC (Electron haberleşme kanalları) bağlantılarını kurdum.
+5. Kodları biraz daha toparlayıp açık kaynak olarak buraya yükledim.
 
 ## 🛠️ Kurulum
 
