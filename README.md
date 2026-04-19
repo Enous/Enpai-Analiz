@@ -1,4 +1,4 @@
-# 🍌 Açık Kaynak Analiz Uygulaması - Electron Edition
+# Açık Kaynak Analiz Uygulaması - Electron Edition
 
 <p align="center">
   <img src="showcase.png" width="100%" alt="Showcase" />
@@ -17,7 +17,7 @@
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/Enous/Enpai Dev-Analiz.git
+   git clone https://github.com/Enous/Enpai-Analiz.git
    ```
 2. Bağımlılıkları kurun:
    ```bash
