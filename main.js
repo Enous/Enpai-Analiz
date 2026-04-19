@@ -55,6 +55,7 @@ ipcMain.handle('scan-files', async (event, srcPath) => {
 
 ipcMain.on('process-files', async (event, { files, src, dst, op }) => {
     let count = 0;
+    let lastPercent = -1;
     const baseTargetDir = path.join(dst, 'Enpai-Dev Analiz');
     await fs.ensureDir(baseTargetDir);
 
@@ -77,7 +78,11 @@ ipcMain.on('process-files', async (event, { files, src, dst, op }) => {
         }
         
         count++;
-        event.reply('progress', (count / files.length));
+        const percent = Math.floor((count / files.length) * 100);
+        if (percent !== lastPercent) {
+            lastPercent = percent;
+            event.reply('progress', (count / files.length));
+        }
     }
     event.reply('done');
 });
