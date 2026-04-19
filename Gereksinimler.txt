@@ -1,4 +1,4 @@
-Enpai Analiz - Gereksinimler
+Açık Kaynak Analiz Uygulaması - Gereksinimler
 
 1. Node.js (v16 veya üzeri)
 2. npm (Node Package Manager)

@@ -1,4 +1,4 @@
-# 🍌 Enpai Analiz - Electron Edition
+# 🍌 Açık Kaynak Analiz Uygulaması - Electron Edition
 
 ![Enpai Analiz](https://raw.githubusercontent.com/Enous/Enous/main/assets/night_blue_banner.png)
 
