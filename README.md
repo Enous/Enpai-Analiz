@@ -1,4 +1,4 @@
-# Açık Kaynak Analiz Uygulaması - Electron Edition
+# Açık Kaynak Analiz Uygulaması
 
 <p align="center">
   <img src="assets/showcase.png" width="100%" alt="Showcase" />
@@ -37,4 +37,5 @@
    ```
 
 ---
+
 Developed with 💜 by [Enous](https://github.com/Enous)
