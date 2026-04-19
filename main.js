@@ -4,8 +4,8 @@ const fs = require('fs-extra');
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 1100,
-        height: 850,
+        width: 1280,
+        height: 950,
         frame: false,
         icon: path.join(__dirname, 'assets', 'icon.png'),
         backgroundColor: '#08080A',
