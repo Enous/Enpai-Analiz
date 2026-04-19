@@ -1,15 +1,17 @@
 # 🍌 Açık Kaynak Analiz Uygulaması - Electron Edition
 
-![Enpai Analiz](https://raw.githubusercontent.com/Enous/Enous/main/assets/night_blue_banner.png)
+<p align="center">
+  <img src="showcase.png" width="100%" alt="Showcase" />
+</p>
 
-**Enpai Analiz**, bilgisayarınızdaki dosya karmaşasını saniyeler içinde çözen, "Parlayan Gece Mavisi" (Night Blue) temalı akıllı dosya organizatörüdür. Electron mimarisi ile hem hızlı hem de görsel olarak premium bir deneyim sunar.
+**Açık Kaynak Analiz Uygulaması**, bilgisayarınızdaki dosya karmaşasını saniyeler içinde çözen, "Parlayan Gece Mavisi" (Night Blue) temalı akıllı dosya organizatörüdür. Electron mimarisi ile hem hızlı hem de görsel olarak premium bir deneyim sunar.
 
 ## ✨ Özellikler
 
-- **🌌 Parlayan Gece Mavisi Tasarımı:** Glassmorphism ve modern neon efektleri.
-- **🚀 Node.js Gücü:** Dosya işlemleri çok daha hızlı ve güvenli.
-- **🔍 Akıllı Kategori Analizi:** Dosyaları uzantı ve içeriklerine göre otomatik ayırma.
-- **🖱️ Hover Efektleri:** Akıcı ve dinamik kullanıcı arayüzü.
+- 🌌 **Gece Mavisi Tasarımı:** Glassmorphism ve modern neon efektleri.
+- 🚀 **Hızlı İşlemler:** Node.js tabanlı yüksek performanslı dosya yönetimi.
+- 🔍 **Akıllı Analiz:** Dosyaları uzantılarına göre otomatik kategorize etme.
+- 🖱️ **Dinamik Arayüz:** Akıcı animasyonlar ve modern kullanıcı deneyimi.
 
 ## 🛠️ Kurulum
 
@@ -19,17 +21,12 @@
    ```
 2. Bağımlılıkları kurun:
    ```bash
-   cd Enpai-Analiz
    npm install
    ```
 3. Uygulamayı başlatın:
    ```bash
    npm start
    ```
-
-## 📂 Kategoriler
-
-- Kodlama, Oyun, Medya, 3D Tasarım, Arşiv ve Belgeler.
 
 ---
 Developed with 💜 by [Enous](https://github.com/Enous)
